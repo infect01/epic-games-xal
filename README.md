@@ -3,11 +3,6 @@
 
 Encoding and decoding function of the parameter **xal** of Epic Games API
 
-## Notes
-
-This is just a proof of work of how the **xal fingerprint** is being **encoded** & **decoded**.
-
-This will not work on scale, you would have to find a way to randomize everything inside the fingerprint.
 ## Xal Information
 
 **Xal** is a parameter required to get the **rqdata** parameter used on **Epic Games**, specifically their protection on the website, called **hCaptcha Enterprise**.
@@ -99,3 +94,9 @@ const encoderDecoder = new EncoderDecoder();
 const encodedXal = encoderDecoder.encode(fingerprint);
 const decodedXal = encoderDecoder.decode(encodedXal);
 ```
+
+## Notes
+
+This is just a proof of work of how the **xal fingerprint** is being **encoded** & **decoded**.
+
+This will not work on scale, you would have to find a way to randomize everything inside the fingerprint.
