@@ -18,8 +18,8 @@ class EncoderDecoder {
       var originalCharcode = encodedCharcode ^ ENCRYPTION_KEY.charCodeAt(i / 2 % ENCRYPTION_KEY.length);
       stringifiedJson += String.fromCharCode(originalCharcode);
     }
-    var decodedObject = JSON.parse(decodeURIComponent(escape(stringifiedJson)));
-    return decodedObject;
+    var decodedXal = JSON.parse(decodeURIComponent(escape(stringifiedJson)));
+    return decodedXal;
   }
 }
 
