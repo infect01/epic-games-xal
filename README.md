@@ -27,11 +27,11 @@ It collects various data about the user device and it's behaviour, later on, tha
 | :---:   | :---: | :---: | :---: | :---: | :---: |
 | User-Agent | Canvas   | Width   | Timezone Offset | Visitor ID (Hash) | Mouse Movements (Timestamp, X Position, Y Position)
 | Webdriver | Graphics Card   | Height   | Timezone | Confidence | Mouse Up (Timestamp, X Position, Y Position)
-| | | | | Fonts (Hash) | Mouse Down (Timestamp, X Position, Y Position) |
-| | | | | Plugins (Hash) | Touch Events (for mobile) |
-| | | | | Audio (Hash) | Keyboard Up (Timestamp)  |
-| | | | | Canvas (Hash) | Keyboard Down (Timestamp) |
-| | | | | Screen (Hash) | Resize Events - if you resized the browser window (Timestamp, Width, Height) |
+| N/A | N/A | N/A | N/A | Fonts (Hash) | Mouse Down (Timestamp, X Position, Y Position) |
+| N/A | N/A | N/A | N/A | Plugins (Hash) | Touch Events (for mobile) |
+| N/A | N/A | N/A | N/A | Audio (Hash) | Keyboard Up (Timestamp)  |
+| N/A | N/A | N/A  | N/A | Canvas (Hash) | Keyboard Down (Timestamp) |
+| N/A | N/A | N/A | N/A | Screen (Hash) | Resize Events - if you resized the browser window (Timestamp, Width, Height) |
 
 
 ## Information
